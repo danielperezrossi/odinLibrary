@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 5rem;
+    font-weight: 500;
+    background-color: aquamarine;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.topMenu{
+    display: flex;    
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    gap: 50px;
+}
+.topMenu button{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    border: solid;
+    border-radius: 10%;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: solid;
+    border-radius: 10%;
+    padding: 1rem;
+    margin: 1rem;    
+    font-family: 'Mukta', sans-serif;
+    background-color:lightgreen;
+    max-width: 250px;
+ }
+ .cards .title{
+    font-size: 1.5rem;
+    font-weight: 750;
+    border-bottom: solid;
+    margin-bottom: 1rem;
+ }
+ .cards .author{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: .5rem;
+ }
+ .cards .status{
+    font-size: 1.5rem;
+    color: red;
+    font-weight: 500;
+ }
